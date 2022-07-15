@@ -331,6 +331,7 @@ drop-shadow(-1px -1px 0 black);
   display: none;
   line-height: 0;
   transition: 0.5s;
+  margin-left:55vw;
 }
 
 @media (max-width: 991px) {
