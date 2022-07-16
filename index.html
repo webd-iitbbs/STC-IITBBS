@@ -30,8 +30,10 @@
 
 </head>
 
-<body>
-
+<body data-magic-cursor="show">
+   <!-- ======= Cursor ======= -->
+   <div style="z-index: 9999;" class="mouse-cursor cursor-outer"></div>
+   <div style="z-index: 9999;" class="mouse-cursor cursor-inner"></div>
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -51,7 +53,7 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Team 2022-23</a></li>
+          <li><a class="nav-link scrollto" href="https://www.google.com">Team 2022-23</a></li>
           <li class="dropdown"><a href="#"><span>Societies</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Neuromancers</a></li>
@@ -89,11 +91,11 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div style="text-align: center;">
-          <h1 style="font-family: sans-serif;">WELCOME TO</h1>
+          <h1 style="font-family: montserrat; font-size: 20px; line-height: 30px;">WELCOME TO</h1>
           <br>
-          <h1 style="font-family: game-of-squids;"><span style="color:#00FF00;">SCIENCE AND TECHNOLOGY COUNCIL</span></h1>
+          <div class="stc_heading">SCIENCE AND TECHNOLOGY COUNCIL</div>
           <br>
-          <h2 style="font-family: copperplate-light;">Innovate, create, inspire!</h2>
+          <h2 style="font-family: copperplate-light; line-height: 75px;">Innovate, create, inspire!</h2>
       </div>
       <div class="row">
         <div class="col-lg-8" style="text-align: center;">
@@ -296,7 +298,7 @@
 
         <div class="section-title">
           <h2>Events</h2>
-          <p style="font-family: copperplate-light;">Check Our Recent Events</p>
+          <p style="font-family: cubano; color: #fff;">Check Our Recent Events</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -324,9 +326,9 @@
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Architecto ut aperiam autem id</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                    <h3 style="font-family: sans-serif;">Architecto ut aperiam autem id</h3>
+                    <p class="fst-italic" style="color:rgb(234, 221, 221);">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p style="color:rgb(234, 221, 221);">Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/event-1.jpg" alt="" class="img-fluid">
@@ -336,9 +338,9 @@
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                    <h3 style="font-family: sans-serif;">Et blanditiis nemo veritatis excepturi</h3>
+                    <p class="fst-italic" style="color:rgb(234, 221, 221);">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
+                    <p style="color:rgb(234, 221, 221);">Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/event-2.jpg" alt="" class="img-fluid">
@@ -348,9 +350,9 @@
               <div class="tab-pane" id="tab-3">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                    <h3 style="font-family: sans-serif;">Impedit facilis occaecati odio neque aperiam sit</h3>
+                    <p class="fst-italic" style="color:rgb(234, 221, 221);">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p style="color:rgb(234, 221, 221);">Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/event-3.jpg" alt="" class="img-fluid">
@@ -360,9 +362,9 @@
               <div class="tab-pane" id="tab-4">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                    <h3 style="font-family: sans-serif;">Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                    <p class="fst-italic" style="color:rgb(234, 221, 221);">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
+                    <p style="color:rgb(234, 221, 221);">Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/event-4.jpg" alt="" class="img-fluid">
@@ -372,9 +374,9 @@
               <div class="tab-pane" id="tab-5">
                 <div class="row">
                   <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                    <h3 style="font-family: sans-serif;">Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic" style="color:rgb(234, 221, 221);">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p style="color:rgb(234, 221, 221);">Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
                     <img src="assets/img/event-5.jpg" alt="" class="img-fluid">
@@ -782,12 +784,12 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p style="font-family: copperplate-light;">Contact Us</p>
+          <p style="font-family: cubano; color: #fff;">Contact Us</p>
         </div>
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 90%; margin-left: 5%; filter: invert(95%);height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6514.58848897934!2d85.66896232291036!3d20.150173047086117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19ac2e52a057f5%3A0x564b6e83a7504a16!2sIndian%20Institute%20of%20Technology(IIT)%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1657864438532!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 90%; margin-left: 5%;height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6514.58848897934!2d85.66896232291036!3d20.150173047086117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19ac2e52a057f5%3A0x564b6e83a7504a16!2sIndian%20Institute%20of%20Technology(IIT)%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1657864438532!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <!--<div class="container" data-aos="fade-up">
@@ -869,7 +871,7 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Address</h3>
+              <h3 style="font-family: copperplate-light;">Address</h3>
               <p style="font-family: sans-serif;">
                 IIT Bhubaneswar <br>
                 Argul, Jatni <br>
@@ -940,9 +942,13 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/cursor.js"></script>
 
 </body>
 
