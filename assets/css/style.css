@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 .stc_heading {
   transition: all 0.5s;
-  -webkit-text-stroke: 4px #d6f4f4;
+  -webkit-text-stroke: 4px #fff;
   font-variation-settings: "wght" 900, "ital" 1;
   font-size: 5rem;
   text-align: center;
