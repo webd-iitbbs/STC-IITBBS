@@ -8,9 +8,7 @@
   font-size: 5rem;
   text-align: center;
   color: transparent;
-  font-family: "Meta", sans-serif;
-  text-shadow: 3px 3px 0px #07bccc,
- 
+  font-family: "Meta", sans-serif; 
   cursor: pointer;
 }
 
@@ -27,6 +25,12 @@
 			.cursor-outer {margin-left: -15px; margin-top: -15px; width: 30px; height: 30px; border: 2px solid #ff451b; -webkit-box-sizing: border-box; box-sizing: border-box; z-index: 100; opacity: .5; -webkit-transition: all .08s ease-out; transition: all .08s ease-out; }
 			.cursor-outer.cursor-hover{opacity: 0; }
 			body[data-magic-cursor="hide"]
+
+      @media only screen and (max-width: 700px) {
+        .mouse-cursor .cursor-inner .cursor-outer {
+            display: 'none';
+        }
+    }     
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
